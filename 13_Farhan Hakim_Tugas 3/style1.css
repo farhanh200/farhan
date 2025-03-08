@@ -1,0 +1,198 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url(img/IMG_4267.JPG);
+    margin: 0;
+    padding: 20px;
+}
+
+.cv-container {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.header {
+    text-align: center;
+}
+
+.header img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 4px solid #c9a060;
+}
+
+.header h1 {
+    font-size: 24px;
+    margin: 10px 0 5px;
+    color: #5a4226;
+}
+
+.header p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #c9a060;
+}
+
+.section {
+    margin-top: 20px;
+}
+
+.section h2 {
+    background: #c9a060;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.section ul li {
+    padding: 5px 0;
+}
+
+.skill-bar {
+    width: 100%;
+    background: #ddd;
+    border-radius: 5px;
+    margin-top: 5px;
+    height: 10px;
+}
+
+.progress {
+    height: 100%;
+    background: #c9a060;
+    border-radius: 5px;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.menu-container {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.menu-icon {
+    width: 30px;
+    height: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.menu-icon div {
+    width: 100%;
+    height: 5px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.menu {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+    width: 200px;
+    display: none;
+    padding: 10px;
+}
+
+.menu.active {
+    display: block;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu ul li {
+    padding: 10px;
+    border-bottom: 1px solid gray;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+.menu ul li:hover {
+    background: gray;
+}
+
+.menu-container {
+    position: fixed;
+    top: 10px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.menu-icon {
+    width: 30px;
+    height: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.menu-icon div {
+    width: 100%;
+    height: 5px;
+    background-color: white;
+    transition: 0.3s;
+    border-radius: 3px;
+}
+
+/* Navigasi */
+.menu {
+    position: fixed;
+    top: 0;
+    right: -250px; 
+    width: 250px;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding-top: 60px;
+    transition: 0.3s;
+}
+
+.menu.active {
+    right: 0; 
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.menu ul li {
+    padding: 15px 0;
+}
+
+.menu ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Efek Hover */
+.menu ul li a:hover {
+    color: #f1c40f;
+}
+
